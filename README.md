@@ -65,3 +65,13 @@ npm run dev
 ## Author
 
 Rupasree
+
+## Screenshots
+
+### Job Listings
+
+![Jobs](jobs-page.png)
+
+### Django Admin
+
+![Admin](admin-page.png)
