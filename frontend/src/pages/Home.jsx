@@ -1,62 +1,52 @@
+import { Link } from "react-router-dom";
+
 function Home() {
   return (
     <div className="container mt-5">
 
-      <div className="text-center mb-5">
+      <div className="text-center py-5 bg-light rounded shadow">
 
-        <h1 className="display-3 fw-bold text-primary">
-          Find Your Dream Job
+        <h1 className="display-4 fw-bold text-primary">
+          Job Board Portal
         </h1>
 
-        <p className="lead">
-          Search thousands of jobs from top companies.
+        <p className="lead mt-3">
+          Find your dream job with our Full Stack Job Board application.
         </p>
 
-        <button className="btn btn-primary btn-lg">
+        <p>
+          Built using Django REST Framework and React.
+        </p>
+
+        <Link to="/jobs" className="btn btn-primary btn-lg mt-3">
           Browse Jobs
-        </button>
+        </Link>
 
       </div>
 
-      <h2 className="mb-4">
-        Featured Jobs
-      </h2>
-
-      <div className="row">
+      <div className="row mt-5">
 
         <div className="col-md-4">
-          <div className="card shadow">
-            <div className="card-body">
-              <h4>Python Developer</h4>
-              <p>Infosys</p>
-              <button className="btn btn-outline-primary">
-                View Details
-              </button>
-            </div>
+          <div className="card shadow text-center p-4">
+            <h2>💼</h2>
+            <h4>Browse Jobs</h4>
+            <p>Search available jobs posted by employers.</p>
           </div>
         </div>
 
         <div className="col-md-4">
-          <div className="card shadow">
-            <div className="card-body">
-              <h4>React Developer</h4>
-              <p>TCS</p>
-              <button className="btn btn-outline-primary">
-                View Details
-              </button>
-            </div>
+          <div className="card shadow text-center p-4">
+            <h2>👨‍💻</h2>
+            <h4>Easy Apply</h4>
+            <p>Apply for jobs quickly using our platform.</p>
           </div>
         </div>
 
         <div className="col-md-4">
-          <div className="card shadow">
-            <div className="card-body">
-              <h4>AI Engineer</h4>
-              <p>Accenture</p>
-              <button className="btn btn-outline-primary">
-                View Details
-              </button>
-            </div>
+          <div className="card shadow text-center p-4">
+            <h2>🚀</h2>
+            <h4>Career Growth</h4>
+            <p>Discover opportunities to build your career.</p>
           </div>
         </div>
 
